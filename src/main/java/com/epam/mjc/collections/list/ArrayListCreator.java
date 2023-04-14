@@ -8,8 +8,8 @@ public class ArrayListCreator {
         ArrayList<String>arrayList=new ArrayList<>();
         for (int i=1;i<=sourceList.size();i++){
             if (i%3==0){
-                arrayList.add(sourceList.get(i));
-                arrayList.add(sourceList.get(i));
+                arrayList.add(sourceList.get(i-1));
+                arrayList.add(sourceList.get(i-1));
             }
         }
         return arrayList;
